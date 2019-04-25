@@ -1,8 +1,8 @@
-package observer_interfaces;
+package observer_interfaces.v1;
 
 public interface IObservable {
 
-    void add(IObserver observer);
+    void  add(IObserver observer);
 
     void remove(IObserver observer);
 
